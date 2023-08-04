@@ -123,6 +123,9 @@ export default defineUserConfig({
 
   // use plugins
   plugins: [
+    googleAnalyticsPlugin({
+      id: 'G-L0S8E5XP7E',
+    }),
     docsearchPlugin({
       appId: '',
       apiKey: '',

@@ -3,6 +3,7 @@ import { onMounted, computed, ref, nextTick } from 'vue'
 import PageMeta from '@theme/PageMeta.vue'
 import PageNav from '@theme/PageNav.vue'
 import RightMenu from '@theme/RightMenu.vue'
+import Footer from '@theme/Footer.vue'
 import { usePageData } from '@vuepress/client'
 import '../styles/gitalk.scss'
 
@@ -65,6 +66,7 @@ onMounted(() => {
     <PageNav />
 
     <div id="gitalk-container" class="theme-default-content"></div>
+    <Footer></Footer>
     <slot name="bottom" />
   </main>
 </template>

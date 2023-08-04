@@ -73,9 +73,9 @@
 
   &.sidebar-heading {
     transition: color 0.15s ease;
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: bold;
-    padding: 0.35rem 1.5rem 0.35rem 1.25rem;
+    padding: 0.25rem 1.5rem 0.25rem 1.25rem;
     width: 100%;
     box-sizing: border-box;
     margin: 0;
@@ -98,13 +98,13 @@
   }
 
   &:not(.sidebar-heading) {
-    font-size: 1em;
-    font-weight: 400;
+    font-size: 0.9em;
+    font-weight: 500;
     display: inline-block;
     margin: 0 10px 0 25px;
     padding: 0.35rem 1rem 0.35rem 1rem;
     line-height: 1.4;
-    width: 90%;
+    width: 80%;
     border-radius: 5px;
     box-sizing: border-box;
 

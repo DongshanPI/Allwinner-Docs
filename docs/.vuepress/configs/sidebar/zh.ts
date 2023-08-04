@@ -34,40 +34,44 @@ export const sidebarZh: SidebarConfig = {
       collapsible: true,
       children: ['/Basic/GNU/01-Introduction.md'],
     },
-    {
-      text: 'V853开发板使用',
-      collapsible: true,
-      children: [
-        '/Basic/100ASK_V853-PRO/01-HardwareResources.md',
-        '/Basic/100ASK_V853-PRO/02-SoftwareResources.md',
-        '/Basic/100ASK_V853-PRO/03-StartFirstExperience.md',
-        '/Basic/100ASK_V853-PRO/04-BurningSystem.md',
-      ],
-    },
-    {
-      text: '东山哪吒STU使用',
-      collapsible: true,
-      children: [
-        '/Basic/DongshanNezhaSTU/01-BoardIntroduction.md',
-        '/Basic/DongshanNezhaSTU/02-SupportingResources.md',
-        '/Basic/DongshanNezhaSTU/03-QuickStart.md',
-        '/Basic/DongshanNezhaSTU/03-1_FlashSystem.md',
-        '/Basic/DongshanNezhaSTU/04-StudyPath.md',
-      ],
-    },
-    {
-      text: '100ASK_T113-PRO使用',
-      collapsible: true,
-      children: [
-        '/Basic/100ASK_T113-PRO/01-BoardIntroduction.md',
-        '/Basic/100ASK_T113-PRO/02-SupportingResources.md',
-        '/Basic/100ASK_T113-PRO/03-QuickStart.md',
-        '/Basic/100ASK_T113-PRO/03-1_FlashSystem.md',
-        '/Basic/100ASK_T113-PRO/04-SystemFunctionTest.md',
-        '/Basic/100ASK_T113-PRO/05-StudyPath.md',
-      ],
-    },
+
   ],
+  '/Board/': [
+  {
+    text: 'V853开发板使用',
+    collapsible: true,
+    children: [
+      '/Board/100ASK_V853-PRO/01-HardwareResources.md',
+      '/Board/100ASK_V853-PRO/02-SoftwareResources.md',
+      '/Board/100ASK_V853-PRO/03-StartFirstExperience.md',
+      '/Board/100ASK_V853-PRO/04-BurningSystem.md',
+    ],
+  },
+  {
+    text: '东山哪吒STU使用',
+    collapsible: true,
+    children: [
+      '/Board/DongshanNezhaSTU/01-BoardIntroduction.md',
+      '/Board/DongshanNezhaSTU/02-SupportingResources.md',
+      '/Board/DongshanNezhaSTU/03-QuickStart.md',
+      '/Board/DongshanNezhaSTU/03-1_FlashSystem.md',
+      '/Board/DongshanNezhaSTU/04-StudyPath.md',
+    ],
+  },
+  {
+    text: '100ASK_T113-PRO使用',
+    collapsible: true,
+    children: [
+      '/Board/100ASK_T113-PRO/01-BoardIntroduction.md',
+      '/Board/100ASK_T113-PRO/02-SupportingResources.md',
+      '/Board/100ASK_T113-PRO/03-QuickStart.md',
+      '/Board/100ASK_T113-PRO/03-1_FlashSystem.md',
+      '/Board/100ASK_T113-PRO/04-SystemFunctionTest.md',
+      '/Board/100ASK_T113-PRO/05-StudyPath.md',
+    ],
+  },
+],
+
   '/Application/': [
     {
       text: 'eLinux应用开发环境',

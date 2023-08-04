@@ -7,6 +7,10 @@ export const navbarZh: NavbarConfig = [
     link: '/'
   },
   {
+    text: '开发板使用',
+    link: '/Board/'
+  },
+  {
     text: '应用开发',
     link: '/Application/'
   },
