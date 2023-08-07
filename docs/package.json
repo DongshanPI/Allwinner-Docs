@@ -17,7 +17,7 @@
     "@vuepress/client": "workspace:*",
     "@vuepress/core": "workspace:*",
     "@vuepress/plugin-docsearch": "workspace:*",
-    "@vuepress/plugin-google-analytics": "workspace:*",
+    "@vuepress/plugin-google-analytics": "*",
     "@vuepress/plugin-register-components": "workspace:*",
     "@vuepress/plugin-shiki": "workspace:*",
     "@vuepress/theme-default": "workspace:*",
