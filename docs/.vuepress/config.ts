@@ -124,7 +124,7 @@ export default defineUserConfig({
   // use plugins
   plugins: [
     googleAnalyticsPlugin({
-      id: process.env.DOCS_GA_ID ?? 'G-FPCF7L7XJH',
+      id: process.env.DOCS_GA_ID ?? 'G-R8J9WGDGKP',
       debug: true,
     }),
     docsearchPlugin({
