@@ -124,7 +124,7 @@ export default defineUserConfig({
   // use plugins
   plugins: [
     googleAnalyticsPlugin({
-      id: process.env.DOCS_GA_ID ?? 'G-R8J9WGDGKP',
+      id: process.env.DOCS_GA_ID ?? 'G-50E0L7RMYR',
       debug: true,
     }),
     docsearchPlugin({
@@ -177,10 +177,6 @@ export default defineUserConfig({
           },
         },
       },
-    }),
-    googleAnalyticsPlugin({
-      // we have multiple deployments, which would use different id
-      id: process.env.DOCS_GA_ID ?? '',
     }),
     registerComponentsPlugin({
       componentsDir: path.resolve(__dirname, './components'),
