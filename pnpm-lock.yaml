@@ -96,7 +96,7 @@ importers:
         specifier: workspace:*
         version: link:../ecosystem/plugin-docsearch
       '@vuepress/plugin-google-analytics':
-        specifier: workspace:*
+        specifier: '*'
         version: link:../ecosystem/plugin-google-analytics
       '@vuepress/plugin-register-components':
         specifier: workspace:*
