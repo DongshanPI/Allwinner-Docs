@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-fbd2e974","path":"/Board/100ASK_V853-PRO/04-BurningSystem.html","title":"烧录开发板系统","lang":"中文简体","frontmatter":{},"headers":[],"git":{"updatedTime":1691138960000,"contributors":[{"name":"codebug8","email":"livelwh@outlook.com","commits":1}]},"filePathRelative":"Board/100ASK_V853-PRO/04-BurningSystem.md"}');export{t as data};

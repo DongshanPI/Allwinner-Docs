@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-2f26e4be","path":"/System/eLinuxFramework/buildroot-training-chapter9.html","title":"嵌入式系统开发简述","lang":"中文简体","frontmatter":{},"headers":[],"git":{"updatedTime":1688123617000,"contributors":[{"name":"codebug8","email":"livelwh@outlook.com","commits":1}]},"filePathRelative":"System/eLinuxFramework/buildroot-training-chapter9.md"}');export{e as data};

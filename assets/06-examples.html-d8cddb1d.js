@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-4255f400","path":"/en/Basic/MakeFile/06-examples.html","title":"6.Makefile实例","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1688027396000,"contributors":[{"name":"codebug8","email":"livelwh@outlook.com","commits":1}]},"filePathRelative":"en/Basic/MakeFile/06-examples.md"}');export{e as data};
