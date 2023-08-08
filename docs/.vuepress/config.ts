@@ -123,10 +123,6 @@ export default defineUserConfig({
 
   // use plugins
   plugins: [
-    googleAnalyticsPlugin({
-      id: 'G-50E0L7RMYR',
-      debug: true,
-    }),
     docsearchPlugin({
       appId: '',
       apiKey: '',
@@ -177,6 +173,11 @@ export default defineUserConfig({
           },
         },
       },
+    }),
+    googleAnalyticsPlugin({
+      // we have multiple deployments, which would use different id
+      id: 'G-50E0L7RMYR',
+      debug: true,
     }),
     registerComponentsPlugin({
       componentsDir: path.resolve(__dirname, './components'),
